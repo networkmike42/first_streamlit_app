@@ -53,7 +53,7 @@ try:
 except URLError as e:
     streamlit.error()
 #dont run any thing past here while we troubleshoot
-streamlit.stop()
+#streamlit.stop()
 
 # import snowflake.connector
 
